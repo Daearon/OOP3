@@ -10,6 +10,7 @@ public abstract class Polygon extends Figure {
             if (side <= 0){
                 throw new NegativeOrZeroSizeException();
             }
+            this.polygonSides.add(side);
         }
     }
     @Override
@@ -17,7 +18,6 @@ public abstract class Polygon extends Figure {
         double perimeter = 0.0;
         for (double side: this.polygonSides) {
             perimeter += side;
-
         }
         return perimeter;
     }

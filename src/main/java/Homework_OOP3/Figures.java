@@ -1,9 +1,10 @@
 package Homework_OOP3;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class Figures {
-    private final ArrayList<Figure> figures = new ArrayList<>();
+    private final List<Figure> figures = new ArrayList<>();
     public void printInfo(){
         int k = 1;
         for (Figure figure :

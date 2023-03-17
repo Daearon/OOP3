@@ -14,15 +14,11 @@ public class Circle extends Figure {
 
     @Override
     public double perimeter() {
-        return 0;
-    }
-
-    @Override
-    public double circumference() {return 2*Math.PI*this.radius;
+        return 2*Math.PI*this.radius;
     }
     @Override
     public String toString() {
-        return "Радиус круга - " + this.radius  + ", длина окружности = " + circumference() +
+        return "Радиус круга - " + this.radius  + ", длина окружности = " + perimeter() +
                 ", Площадь = " +  area() + ";" ;
     }
 }

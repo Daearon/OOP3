@@ -8,6 +8,4 @@ public abstract class Figure implements Comparable<Figure>{
         return Double.compare(this.area(), ex.area());
     }
     public abstract double perimeter();
-
-    public abstract double circumference();
 }

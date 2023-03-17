@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86f3a54f-6ecb-494e-ae6c-7176300bb09f" name="Changes" comment="Finished third homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/InvalidArgumentExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/NegativeOrEmptySizeException.java" afterDir="false" />
+    <list default="true" id="86f3a54f-6ecb-494e-ae6c-7176300bb09f" name="Changes" comment="Make corrections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Figure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Figures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Figures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/InvalidArgumentExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/InvalidArgumentExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Polygon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework_OOP3/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679023459118</updated>
-      <workItem from="1679023462835" duration="5848000" />
+      <workItem from="1679023462835" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="Finished third homework">
       <created>1679027185182</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679027185182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make corrections">
+      <created>1679030824708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679030824708</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished third homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished third homework" />
+    <MESSAGE value="Make corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make corrections" />
   </component>
 </project>

@@ -2,14 +2,14 @@ package Homework_OOP3;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
         Figures figures = new Figures();
         System.out.println("Создание коллекции из 5 фигур ");
         System.out.println("***");
         figures.add(new Circle(9.00));
         figures.add(new Square(5.0));
         figures.add(new Triangle(4.0, 4.0, 4.0));
-        figures.add(new Triangle(6.0, 8.0, 7.0));
+        figures.add(new Triangle(4.0, 5.0, 7.0));
         figures.add(new Rectangle(11.0, 2.0));
 
         System.out.println("Созданы следующие фигуры: ");
