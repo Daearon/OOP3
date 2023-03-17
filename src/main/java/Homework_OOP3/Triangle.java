@@ -2,13 +2,13 @@ package Homework_OOP3;
 
 public class Triangle extends Polygon {
 
-    protected Triangle(double sideA, double sideB, double sideC) throws Exception {
+    public Triangle(double sideA, double sideB, double sideC) {
         super(sideA, sideB, sideC);
         this.polygonSides.add(sideA);
         this.polygonSides.add(sideB);
         this.polygonSides.add(sideC);
         if (!((sideA + sideB) > sideC && (sideA + sideC) > sideB && (sideC + sideB) > sideA)) {
-            throw new Exception("Некорректные данные");
+            throw new InvalidArgumentExpression("Некорректные данные");
         }
     }
     @Override

@@ -1,16 +1,22 @@
 package Homework_OOP3;
 
 public class Circle extends Figure {
-    protected Double radius;
-    public Circle(Double radius) throws Exception{
+    public Double radius;
+    public Circle(Double radius) {
         this.radius = radius;
         if (radius <= 0){
-            throw new Exception("Некорректные данные");
+            throw new NegativeOrZeroSizeException();
         }
     }
     @Override
     public double area(){return Math.PI*Math.pow(this.radius, 2.0);
     }
+
+    @Override
+    public double perimeter() {
+        return 0;
+    }
+
     @Override
     public double circumference() {return 2*Math.PI*this.radius;
     }

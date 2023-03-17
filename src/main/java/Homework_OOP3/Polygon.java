@@ -5,14 +5,15 @@ import java.util.List;
 
 public abstract class Polygon extends Figure {
     List<Double> polygonSides = new ArrayList<>();
-    protected Polygon(double... polygonSides) throws Exception{
+    public Polygon(double... polygonSides) {
         for (double side: polygonSides){
             if (side <= 0){
-                throw new Exception("Некорректные данные, отрицательное значение");
+                throw new NegativeOrZeroSizeException();
             }
         }
     }
-    public Double perimeter(){
+    @Override
+    public double perimeter(){
         double perimeter = 0.0;
         for (double side: this.polygonSides) {
             perimeter += side;

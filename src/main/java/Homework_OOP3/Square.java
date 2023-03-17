@@ -2,7 +2,7 @@ package Homework_OOP3;
 
 public class Square extends Rectangle{
 
-    protected Square(double sideA) throws Exception {
+    public Square(double sideA) {
         super(sideA, sideA);
     }
     @Override

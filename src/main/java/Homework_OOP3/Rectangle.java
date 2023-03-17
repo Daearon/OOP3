@@ -1,7 +1,7 @@
 package Homework_OOP3;
 
 public class Rectangle extends Polygon {
-    protected Rectangle(double sideA, double sideB) throws Exception {
+    public Rectangle(double sideA, double sideB) {
         super(sideA, sideB);
         this.polygonSides.add(sideA);
         this.polygonSides.add(sideB);

@@ -7,5 +7,7 @@ public abstract class Figure implements Comparable<Figure>{
     public int compareTo(Figure ex) {
         return Double.compare(this.area(), ex.area());
     }
+    public abstract double perimeter();
+
     public abstract double circumference();
 }
